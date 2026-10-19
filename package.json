@@ -1,0 +1,17 @@
+{
+  "name": "worldglance",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @worldglance/web dev",
+    "typecheck": "pnpm --filter @worldglance/web typecheck",
+    "lint": "pnpm --filter @worldglance/web lint",
+    "test": "pnpm --filter @worldglance/web test",
+    "build": "pnpm --filter @worldglance/web build",
+    "preview": "pnpm --filter @worldglance/web preview"
+  }
+}

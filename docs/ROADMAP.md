@@ -4,7 +4,9 @@ This roadmap describes direction rather than a rigid contract.
 
 Milestones may change when development teaches us something important.
 
-## 0.1 — Earth prototype
+Milestones are independent of development versions. See `AGENTS.md` for versioning and the release workflow.
+
+## Earth prototype
 
 Goal:
 
@@ -29,7 +31,7 @@ Do not add unrelated systems.
 
 ---
 
-## 0.2 — Visual identity and camera
+## Visual identity and camera
 
 Improve:
 
@@ -48,7 +50,7 @@ Make moving around Earth feel polished.
 
 ---
 
-## 0.3 — Geographic world
+## Geographic world
 
 Introduce useful geographic detail such as:
 
@@ -65,7 +67,7 @@ The globe begins to become an explorable world.
 
 ---
 
-## 0.4 — Cities and buildings
+## Cities and buildings
 
 Develop the local-scale appearance:
 
@@ -81,7 +83,7 @@ Zooming toward cities should reveal meaningful detail without destroying perform
 
 ---
 
-## 0.5 — Living ground activity
+## Living ground activity
 
 Introduce controlled simulation of activity such as:
 
@@ -97,7 +99,7 @@ Simulation should be bounded to relevant visible areas.
 
 ---
 
-## 0.6 — Global transport
+## Global transport
 
 Introduce:
 
@@ -112,7 +114,7 @@ Movement becomes visible at regional and global scale.
 
 ---
 
-## 0.7 — Environment
+## Environment
 
 Introduce selected environmental systems:
 
@@ -128,7 +130,7 @@ The Earth should feel dynamic even when the user is not focused on cities.
 
 ---
 
-## 0.8 — Events and information
+## Events and information
 
 Introduce selected world events and contextual information.
 
@@ -152,7 +154,7 @@ Worldglance becomes informative without becoming cluttered.
 
 ---
 
-## 0.9 — Product polish
+## Product polish
 
 Focus on:
 
@@ -174,7 +176,7 @@ Transform the prototype into a coherent product.
 
 ---
 
-## 1.0 — Public website
+## Public website
 
 Requirements will be finalized closer to release.
 
@@ -191,7 +193,7 @@ Likely work includes:
 - rollback strategy
 - final UX polish
 
-1.0 should represent a website we are comfortable making publicly available.
+The first public release is `1.0.0` and can follow any earlier development version. It should represent a website we are comfortable making publicly available.
 
 ---
 
