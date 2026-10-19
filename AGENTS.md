@@ -75,6 +75,21 @@ For a development task:
 
 Do not turn a small task into a large project-management exercise.
 
+## Versions and releases
+
+The user chooses version numbers. Do not automatically bump versions or tie them to roadmap milestones. Continue building and making requested changes normally between releases.
+
+When the user says “push and release”, use the version they specify, or the current application version if none is specified. This instruction authorizes the complete workflow without another confirmation:
+
+1. Synchronize application versions if needed and run required checks.
+2. Commit the intended changes, push, and open or update the PR.
+3. Wait for passing CI, squash merge, tag the merged commit as `vX.Y.Z`, and publish a GitHub release with concise notes.
+4. Report the release link when complete. If something genuinely blocks completion, explain the blocker.
+
+Do not release while required checks are failing or unverified.
+
+Use commands or authorized APIs for GitHub operations. Do not use browser/computer control unless the user explicitly requests it. Do not build custom release infrastructure.
+
 ## Product priority
 
 A development session should normally result in one of these:

@@ -1,0 +1,101 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #e7eeeb;
+  background: #0b171b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.page {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: radial-gradient(ellipse at 50% 35%, #183138, transparent 65%);
+}
+
+.eyebrow {
+  margin: 0 0 2.5rem;
+  color: #a2c9bd;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.globe-mark {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 1.75rem;
+  overflow: hidden;
+  border: 1px solid #87b5a7;
+  border-radius: 50%;
+}
+
+.globe-mark::before,
+.globe-mark::after,
+.globe-mark span {
+  position: absolute;
+  inset: 0;
+  content: '';
+  border: 1px solid #608b80;
+  border-radius: 50%;
+}
+
+.globe-mark::before {
+  inset-inline: 25%;
+}
+
+.globe-mark::after {
+  inset-block: 25%;
+}
+
+.globe-mark span {
+  inset: 50% 0 auto;
+  border-width: 1px 0 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 1.15;
+}
+
+.intro {
+  max-width: 30rem;
+  margin: 1.5rem 0 0;
+  color: #c1d2cd;
+  font-size: clamp(1rem, 3vw, 1.25rem);
+  line-height: 1.6;
+}
+
+.description,
+.status {
+  color: #a2b5af;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.description {
+  margin: 0.5rem 0 0;
+}
+
+.status {
+  margin: 3rem 0 0;
+}
